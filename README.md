@@ -52,8 +52,5 @@ cat data/data_clean.csv | wc
 cat data/data_clean.csv | grep electronics | grep smartphone| awk -F ',' '{print $5}'|
 sort | uniq -c | sort -nr
 ```
-## Authors
-
-- [@Prayogi Adista](https://www.linkedin.com/in/prayogi-adista-purwanto-89878476/)
 
 
